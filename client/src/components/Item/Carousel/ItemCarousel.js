@@ -9,7 +9,7 @@ const ProductCarousel = (props) => {
   {props.item.image.map((image, index) => (
     <Carousel.Item key={index}>
       <div className="carousel__image__container">
-        <img className="carousel__image" src={`http://localhost:5000/${props.item.category}/${image.filename}`} alt="item" />
+        <img className="carousel__image" src={`https://majorback.onrender.com/${props.item.category}/${image.filename}`} alt="item" />
       </div>
     </Carousel.Item>
   ))}
