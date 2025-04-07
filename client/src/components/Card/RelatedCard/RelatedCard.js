@@ -7,7 +7,7 @@ const RelatedCard = (props) => {
             <div className="related__product__card__inner">
                 <div className="related__product__image"> 
                     {/* <img src= {`https://shema-backend.vercel.app/public/${props.item.category}/${props.item.image[0].filename}`} alt="item" className="product__img"/>  */}
-                    <img src={`http://localhost:5000/${props.item.category}/${props.item.image[0].filename}`} alt="item" className="product__img"/>
+                    <img src={`https://majorback.onrender.com/${props.item.category}/${props.item.image[0].filename}`} alt="item" className="product__img"/>
 
                 </div>
                 <div className="related__product__card__detail">

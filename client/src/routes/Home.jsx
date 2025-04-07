@@ -12,7 +12,7 @@ const Home = () => {
 
     useEffect(() => {
         // axios.get("https://shema-backend.vercel.app/api/items")
-        axios.get("http://localhost:5000/api/items")
+        axios.get("https://majorback.onrender.com")
             .then(res => setFeaturedItems(res.data))
             .catch(err => console.log(err))
 

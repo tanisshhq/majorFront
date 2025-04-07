@@ -12,7 +12,7 @@ const ProductView = (props) => {
     useEffect(() => {
         window.scrollTo(0, 0)
         // axios.get("https://shema-backend.vercel.app/api/items")
-        axios.get("http://localhost:5000/api/items")
+        axios.get("https://majorback.onrender.com")
             .then(res => {
                 setItem(res.data.filter((item) => item._id === param.id))
                 setLoading(false)
